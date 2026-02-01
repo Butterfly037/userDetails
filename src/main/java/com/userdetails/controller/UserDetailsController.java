@@ -45,4 +45,10 @@ public class UserDetailsController {
     private ResponseEntity<List<UserDetailsDto>> getAllUserDetailsDto(){
         return ResponseEntity.ok(userDetailsService.getUserDetails());
     }
+
+    /**
+     * use this link to connect database
+     * and change database url like used in application properties, user name and password
+     * http://localhost:8080/h2-console/login.jsp?jsessionid=5eb8514537382c3da0368094656e6257
+     */
 }
